@@ -136,6 +136,7 @@ vqgan_approach/lpips*
 vqgan_approach/vqgan_imagenet_f16_16384*
 
 
-/logs
-
-index.csv
+logs
+outputs
+weights
+sd1_data/index.csv

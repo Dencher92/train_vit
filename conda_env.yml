@@ -1,4 +1,4 @@
-name: sd_prompts37
+name: vit_t
 channels:
   - pytorch
   - nvidia
@@ -180,6 +180,7 @@ dependencies:
       - sqlparse==0.4.4
       - tabulate==0.9.0
       - threadpoolctl==3.1.0
+      - timm==0.6.13
       - tokenizers==0.13.3
       - torch==1.13.1
       - torchvision==0.14.1
@@ -195,4 +196,3 @@ dependencies:
       - xxhash==3.2.0
       - yarl==1.9.2
       - zipp==3.15.0
-prefix: /data/home/divashkov/miniconda3/envs/sd_prompts37

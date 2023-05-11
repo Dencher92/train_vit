@@ -3,22 +3,22 @@ seed: 424242
 model_name: vit_base_patch16_224
 
 mnt_dir_path: /mnt/home/
-data_path: ${mnt_dir_path}/data/diffusiondb_img
-index_path: ${mnt_dir_path}/vit_t/sd1_data/index.csv
+data_path: ${mnt_dir_path}/data/diffusiondb_sd2
+train_index_path: ${mnt_dir_path}/data/diffusiondb_sd2/train.csv
+eval_index_path: ${mnt_dir_path}/data/diffusiondb_sd2/eval.csv
 
 train_batch_size: 128
 valid_batch_size: 128
 n_workers: 4
 
-train_size: 100_000
-val_size: 10_000
+# train_size: 100_000
+# val_size: 10_000
 epochs: 100
 epoch_length: 250
 patience: 3
 
 t_max: 500
 min_lr: 1e-6
-n_accumulate: 1
 weight_decay: 1e-6
 learning_rate: 1e-5
 
